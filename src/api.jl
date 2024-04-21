@@ -2430,7 +2430,7 @@ function helicsInputGetComplexVector(ipt::Input)::Vector{Float64}
 	for i in 1:actualSize[]/2
 		push!(complexVector, data[2*i - 1] + im * data[2*i])
 	end
-    return compelxVector
+    return complexVector
 end
 
 """
